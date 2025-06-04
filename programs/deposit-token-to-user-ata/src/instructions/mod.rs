@@ -29,3 +29,6 @@ pub use admin_batch_transfer_to_treasury::*;
 
 pub mod admin_transfer_to_treasury;
 pub use admin_transfer_to_treasury::*;
+
+pub mod update_admin;
+pub use update_admin::*;

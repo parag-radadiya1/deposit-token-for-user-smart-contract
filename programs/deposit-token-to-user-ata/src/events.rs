@@ -33,3 +33,11 @@ pub struct AdminTransferredToTreasury {
     pub to_treasury: Pubkey,
     pub remaining_balance: u64,
 }
+
+
+#[event]
+pub struct AdminUpdated {
+    pub old_admin: Pubkey,
+    pub new_admin: Pubkey,
+    pub updated_by: Pubkey,
+}
